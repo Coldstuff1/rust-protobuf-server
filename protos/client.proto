@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package client;
+
 message Client {
   string ip_addr = 1;
   string username = 2;
