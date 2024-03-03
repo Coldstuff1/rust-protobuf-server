@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Client {
+  string ip_addr = 1;
+  string username = 2;
+  string payload = 3;
+}
